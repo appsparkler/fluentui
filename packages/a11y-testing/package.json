@@ -1,6 +1,6 @@
 {
   "name": "@fluentui/a11y-testing",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Fluent UI tests for a11y patterns.",
   "private": true,
   "main": "lib/src/index.js",
@@ -18,13 +18,13 @@
     "lint": "just-scripts lint"
   },
   "devDependencies": {
-    "@fluentui/eslint-plugin": "^1.0.0-beta.1",
+    "@fluentui/eslint-plugin": "^0.0.1",
+    "@fluentui/scripts": "^0.0.1",
     "@types/enzyme": "3.10.3",
-    "@types/react": "16.9.42",
-    "@fluentui/scripts": "^1.0.0",
     "@types/jest": "~24.9.0",
-    "jest": "~24.9.0",
+    "@types/react": "16.9.42",
     "enzyme": "~3.10.0",
+    "jest": "~24.9.0",
     "react": "16.8.6"
   },
   "dependencies": {
@@ -32,7 +32,7 @@
   },
   "peerDependencies": {
     "enzyme": "^3.0.0",
-    "react": ">=16.8.0 <17.0.0",
-    "jest": "^24.0.0"
+    "jest": "^24.0.0",
+    "react": ">=16.8.0 <17.0.0"
   }
 }

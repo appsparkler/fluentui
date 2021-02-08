@@ -1,6 +1,6 @@
 {
   "name": "@fluentui/pr-deploy-site",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A site to be deployed as a static site to view what is built during PR",
   "main": "index.js",
   "private": true,
@@ -10,6 +10,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@fluentui/scripts": "^1.0.0"
+    "@fluentui/scripts": "^0.0.1"
   }
 }

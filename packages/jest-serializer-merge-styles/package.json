@@ -1,6 +1,6 @@
 {
   "name": "@fluentui/jest-serializer-merge-styles",
-  "version": "8.0.0-beta.5",
+  "version": "0.0.1",
   "description": "Jest serializer for merge-styles.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -24,7 +24,8 @@
     "start-test": "just-scripts jest-watch"
   },
   "devDependencies": {
-    "@fluentui/eslint-plugin": "^1.0.0-beta.1",
+    "@fluentui/eslint-plugin": "^0.0.1",
+    "@fluentui/scripts": "^0.0.1",
     "@types/jest": "~24.9.0",
     "@types/react": "16.9.42",
     "@types/react-dom": "16.9.10",
@@ -32,11 +33,10 @@
     "react": "16.8.6",
     "react-app-polyfill": "~1.0.1",
     "react-dom": "16.8.6",
-    "react-test-renderer": "^16.3.0",
-    "@fluentui/scripts": "^1.0.0"
+    "react-test-renderer": "^16.3.0"
   },
   "dependencies": {
-    "@fluentui/set-version": "^8.0.0-beta.1",
-    "@fluentui/merge-styles": "^8.0.0-beta.4"
+    "@fluentui/merge-styles": "^0.0.1",
+    "@fluentui/set-version": "^0.0.1"
   }
 }
